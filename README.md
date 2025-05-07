@@ -44,6 +44,7 @@ We evaluated each model on the standardized glaucoma datasets (using ACRIMA as o
 | Model            | Accuracy (%) |
 |------------------|--------------|
 | SVM              | 72.3         |
+| SVM + CDR            | 75.0         |
 | CNN v1           | 97.18        |
 | ResNet50         | 98.1         |
 | VGG16            | 96.07        |
