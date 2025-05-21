@@ -28,7 +28,7 @@ The **Cup-to-Disc Ratio (CDR)** is a key clinical metric used by ophthalmologist
 
 | Healthy Eye (CDR ≈ 0.3) | Glaucomatous Eye (CDR ≈ 0.7) |
 |--------------------------|------------------------------|
-| ![Normal Eye](images/normal_eye.jpg) | ![Glaucoma Eye](images/glaucoma_eye.jpg) |
+| ![Normal Eye](n.png) | ![Glaucoma Eye](g.png) |
 
 > **Note:** The outer circle highlights the optic disc, while the brighter inner region marks the optic cup.
 
