@@ -14,7 +14,27 @@ The six models include:
 This allows a thorough performance comparison under a consistent evaluation framework.
 
 ---
+## Understanding the Cup-to-Disc Ratio (CDR)
 
+The **Cup-to-Disc Ratio (CDR)** is a key clinical metric used by ophthalmologists to evaluate optic nerve health and detect glaucoma. It refers to the ratio between the diameter of the **optic cup** (a central depression) and the overall **optic disc** within a retinal fundus image.
+
+- In **healthy eyes**, the cup is relatively small compared to the disc (CDR < 0.4).
+- In **glaucoma**, the optic nerve is damaged, causing the cup to enlarge (CDR > 0.6).
+- Intermediate values (CDR ~0.4–0.6) may require further examination and follow-up.
+
+> A higher CDR typically indicates a greater likelihood of glaucoma and is therefore used as a vital feature in automated glaucoma detection.
+
+### Visual Comparison
+
+| Healthy Eye (CDR ≈ 0.3) | Glaucomatous Eye (CDR ≈ 0.7) |
+|--------------------------|------------------------------|
+| ![Normal Eye](images/normal_eye.jpg) | ![Glaucoma Eye](images/glaucoma_eye.jpg) |
+
+> **Note:** The outer circle highlights the optic disc, while the brighter inner region marks the optic cup.
+
+By incorporating predicted CDR values as explicit input features in machine learning models, we align our approach more closely with clinical diagnosis and improve classification accuracy.
+
+---
 ## Model Details
 
 ### Vanilla SVM
