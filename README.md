@@ -95,6 +95,13 @@ A demonstration video file named `demo.mp4` is included in this repository. The 
 
 ---
 
+## Team
+- Rishi Kalasariya
+- Pradeep
+- Anand Prakash Singh
+- Ahbar Siddiqui
+- Priyanshu Srivastav
+
 ## Acknowledgements
 
 We thank Dr. Debanga R. Neog for supervising this project and providing guidance on glaucoma imaging and machine learning techniques. We also acknowledge the Department of Computer Science and Engineering at IIT Guwahati for their support and computational resources.
